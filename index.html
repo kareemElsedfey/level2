@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>world cup game</title>
+</head>
+<body>
+    <header>
+        <div class="bar-container">
+            <div class="bar-content">
+                <div class="bar-logo">
+                    <center><img src="https://e.top4top.io/p_2510sc2pm1.png" alt="" width="200px" height="200px"></center>
+                </div>
+               
+                <div class="list"><div id="mysidenav" class="sidenav">
+                    <input type="search" placeholder="SEARCH...." width="200px" height="250px">
+                    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">home</a>
+                    <a href="#">contact</a>
+                    <a href="#">categoris</a>
+                    <a href="#">about</a>
+                    <a href="#">
+                        <button id="blackColor" onclick="changeBlack()"><img src="https://imageshack.com/i/powJHKoqp" alt="" width="30px" height="30px"></button> 
+                                <button id="whiteColor" onclick="changeWhite()"><img src="https://imageshack.com/i/poLHPoK3p" alt="" width="30px" height="30px"></button>
+                    </a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                  </div>
+                  <div id="main">
+                    <span onclick="openNav()">
+                      &#9776; 
+                    </span>
+                 
+                  </div>
+            </div>
+        </div>
+    </header>
+    <section class="level-1" id="levelplay">
+        <div id="one">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            <img src="https://b.top4top.io/p_2513wkjce2.png" alt="" width="50px" height="50px">
+            <img src="https://www8.0zz0.com/2022/11/19/08/935130731.png" alt="" width="50px" height="50px">
+            <img src="https://c.top4top.io/p_2513vkn6j3.png" alt="" width="50px" height="50px">
+            <img src="https://d.top4top.io/p_2513ynypx5.png" alt="" width="50px" height="50px">
+           </div>
+            <div>
+                <option onclick="falsee()" id="decrement">alexander mitrovic</option>
+                <option onclick="trude()" id="increment">joao mario</option>
+            <option onclick="falsee()"id="decrement">joao cancelo</option>
+            <option onclick="falsee()"id="decrement">phillipe coutinho</option>
+            </div>
+           <div id="showTrue">
+           <center> <img src="https://a.top4top.io/p_2513x5ckj1.jpg" alt=""  width="200px" height="200px"></center>
+           <center> <img id="false" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>joao mario</h1>
+            <button id="nextone" onclick="nextone()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div>
+
+        <div id="two">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            <img src="https://www13.0zz0.com/2022/11/19/08/905161671.png" alt="" width="50px" height="50px">
+            <img src="https://www12.0zz0.com/2022/11/19/08/564557764.png" alt="" width="50px" height="50px">
+            <img src="https://e.top4top.io/p_2514451y62.png" alt="" width="50px" height="50px">
+            <img src="https://www12.0zz0.com/2022/11/19/08/512786375.png" alt="" width="50px" height="50px">
+            <img src="https://www13.0zz0.com/2022/11/19/08/237365829.png" alt="" width="50px" height="50px">
+            <img src="https://www12.0zz0.com/2022/11/19/08/964601801.png" alt="" width="50px" height="50px">
+           </div>
+            <div>
+                <option onclick="falsee2()" id="decrement">youssef en-nesserri</option>
+                <option onclick="falsee2()" id="decrement">jules konde</option>
+                <option onclick="trude2()" id="increment">dani alves</option>
+            <option onclick="falsee2()" id="decrement">alex sandaro</option>
+            </div>
+           <div id="showTrue2">
+           <center> <img src="https://www13.0zz0.com/2022/11/19/08/604834777.jpeg" alt="" width="200px" height="200px"></center>
+           <center> <img id="false2" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true2" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>dani alves</h1>
+            <button id="nexttwo" onclick="nexttwo()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div>
+
+        <div id="three">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            <img src="https://g.top4top.io/p_2514ookm84.png" alt="" width="50px" height="50px">
+            <img src="https://e.top4top.io/p_2514451y62.png" alt="" width="50px" height="50px">
+            <img src="https://f.top4top.io/p_2514ppfct3.png" alt="" width="50px" height="50px">
+            
+           </div>
+            <div>
+            <option onclick="falsee3()"id="decrement">yves bissouma</option>
+            <option onclick="falsee3()"id="decrement">darwin nunez</option>
+            <option onclick="falsee3()"id="decrement">allessandro martienz</option>
+            <option onclick="trude3()"id="increment">rodrego bentancur</option>
+            </div>
+           <div id="showTrue3">
+           <center> <img src="https://d.top4top.io/p_2514fek7i1.jpeg" alt=""></center>
+           <center> <img id="false3" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true3" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>rodrego bentancur</h1>
+            <button id="nextthree" onclick="nextthree()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div>
+
+        <div id="four">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            <img src="https://e.top4top.io/p_2514nkwav1.png" alt="" width="50px" height="50px">
+            <img src="https://g.top4top.io/p_2514tsweh3.png" alt="" width="50px" height="50px">
+            <img src="https://f.top4top.io/p_2514k0cm62.png" alt="" width="50px" height="50px">
+            
+           </div>
+            <div>
+            <option onclick="trude4()"id="increment">de roon</option>
+            <option onclick="falsee4()"id="decrement">rafael toloi</option>
+            <option onclick="falsee4()"id="decrement">giovani lo celso</option>
+            <option onclick="falsee4()"id="decrement">robert lewandoski</option>
+            </div>
+           <div id="showTrue4">
+           <center> <img src="https://j.top4top.io/p_2514ltoqn1.jpeg" alt=""></center>
+           <center> <img id="false4" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true4" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>de roon</h1>
+            <button id="nextfour" onclick="nextfour()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div>
+
+        <div id="five">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            <img src="https://i.top4top.io/p_2514kkl3l5.png" alt="" width="50px" height="50px">
+            <img src="https://j.top4top.io/p_2514le98d6.png" alt="" width="50px" height="50px">
+            <img src="https://f.top4top.io/p_2514idxvn2.png" alt="" width="50px" height="50px">
+            <img src="https://www12.0zz0.com/2022/11/19/08/429150284.png" alt="" width="50px" height="50px">
+            <img src="https://e.top4top.io/p_2514463r81.png" alt="" width="50px" height="50px">
+            
+           </div>
+            <div>
+            <option onclick="false5()"id="decrement">vlahovic</option>
+            <option onclick="trude5()"id="increment">jovic</option>
+            <option onclick="falsee5()"id="decrement">vinivus junior</option>
+            <option onclick="falsee5()"id="decrement">angel di maria</option>
+            </div>
+           <div id="showTrue5">
+           <center> <img src="https://d.top4top.io/p_2514vslbj1.jpeg" alt="" width="200px" height="200px"></center>
+           <center> <img id="false5" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true5" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>jovic</h1>
+            <button id="nextfive" onclick="nextfive()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div>
+
+        <div id="six">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            <img src="https://d.top4top.io/p_2514pcckx5.png" alt="" width="50px" height="50px">
+            <img src="https://b.top4top.io/p_25148lpj63.png" alt="" width="50px" height="50px">
+            <img src="https://c.top4top.io/p_2514lkjya4.png" alt="" width="50px" height="50px">
+            <img src="https://a.top4top.io/p_25144lnr12.png" alt="" width="50px" height="50px">
+           </div>
+            <div>
+            <option onclick="falsee6()"id="decrement">allison becker</option>
+            <option onclick="falsee6()"id="decrement">papu gomez</option>
+            <option onclick="falsee6()"id="decrement">julian alvarez</option>
+            <option onclick="trude6()"id="increment">nemania gujeli</option>
+            </div>
+           <div id="showTrue6">
+           <center> <img src="https://l.top4top.io/p_2514wb7u91.jpeg" alt="" width="200px" height="200px"></center>
+           <center> <img id="false6" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true6" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>nemania gujeli</h1>
+            <button id="nextsix" onclick="nextsix()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div>
+
+        <div id="seven">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            
+            <img src="https://www12.0zz0.com/2022/11/19/11/313367509.png" alt="" width="50px" height="50px">
+           </div>
+            <div>
+            <option onclick="falsee7()"id="decrement">andre muniauin</option>
+            <option onclick="falsee7()"id="decrement">troussard</option>
+            <option onclick="trude7()"id="increment">iniaki williams</option>
+            <option onclick="falsee7()"id="decrement">granit xhaka</option>
+            </div>
+           <div id="showTrue7">
+           <center> <img src="https://f.top4top.io/p_25144swjv1.jpeg" alt=""></center>
+           <center> <img id="false7" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true7" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>iniaki williams</h1>
+            <button id="nextseven" onclick="nextseven()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div>
+
+        <div id="eight">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            
+            <img src="https://j.top4top.io/p_2514w8ali7.png" alt="" width="50px" height="50px">
+            <img src="https://i.top4top.io/p_2514axk6e6.png" alt="" width="50px" height="50px">
+            <img src="https://f.top4top.io/p_2514kqr1z3.png" alt="" width="50px" height="50px">
+            <img src="https://k.top4top.io/p_251489kra8.png" alt="" width="50px" height="50px">
+            <img src="https://g.top4top.io/p_2514ou4sw4.png" alt="" width="50px" height="50px">
+            <img src="https://e.top4top.io/p_2514sa2qo2.png" alt="" width="50px" height="50px">
+            <img src="https://g.top4top.io/p_25148c0ui1.png" alt="" width="50px" height="50px">
+           </div>
+            <div>
+            <option onclick="falsee8()"id="decrement">thomas delany</option>
+            <option onclick="falsee8()"id="decrement">salem eldosari</option>
+            <option onclick="falsee8()"id="decrement">olivie giroud</option>
+            <option onclick="trude8()"id="increment">michal bithcuai</option>
+            </div>
+           <div id="showTrue8">
+           <center> <img src="https://d.top4top.io/p_2514enff61.jpeg" alt="" width="200px" height="200px"></center>
+           <center> <img id="false8" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true8" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>michal bithcuai</h1>
+            <button id="nexteight" onclick="nexteight()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div>
+
+        <div id="nine">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            <img src="https://d.top4top.io/p_2514fwzo93.png" alt="" width="50px" height="50px">
+            <img src="https://b.top4top.io/p_2514q610n1.png" alt="" width="50px" height="50px">
+            <img src="https://e.top4top.io/p_25149wzip4.png" alt="" width="50px" height="50px">
+            <img src="https://c.top4top.io/p_2514wd4x32.png" alt="" width="50px" height="50px">
+           </div>
+            <div>
+            <option onclick="falsee9()"id="decrement">joe gomez</option>
+            <option onclick="trude9()"id="increment">wahbi khazri</option>
+            <option onclick="falsee9()"id="decrement">hugo lloris</option>
+            <option onclick="falsee9()"id="decrement">kay havertz</option>
+            </div>
+           <div id="showTrue9">
+           <center> <img src="https://b.top4top.io/p_25145ah6l1.jpeg" alt="" width="200px" height="200px"></center>
+           <center> <img id="false9" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true9" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>wahbi khazri</h1>
+            <button id="nextnine" onclick="nextnine()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div>
+
+        <div id="ten">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            <img src="https://b.top4top.io/p_2514n03ab4.png" alt="" width="50px" height="50px">
+            <img src="https://c.top4top.io/p_2514yciqt5.png" alt="" width="50px" height="50px">
+            <img src="https://a.top4top.io/p_25148147v3.png" alt="" width="50px" height="50px">
+            <img src="https://l.top4top.io/p_251475iy62.png" alt="" width="50px" height="50px">
+           </div>
+            <div>
+            <option onclick="falsee10()"id="decrement">harry maguaire</option>
+            <option onclick="falsee10()"id="decrement">valverde</option>
+            <option onclick="falsee10()"id="decrement">kenan davies</option>
+            <option onclick="trude10()"id="increment">aroon mooy</option>
+            </div>
+           <div id="showTrue10">
+           <center> <img src="https://k.top4top.io/p_2514bax5y1.jpeg" alt=""></center>
+           <center> <img id="false10" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true10" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>aroon mooy</h1>
+            <button id="nextten" onclick="nextten()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div>
+
+        <div id="eleven">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            
+            <img src="https://g.top4top.io/p_2514zcvql4.png" alt="" width="50px" height="50px">
+            <img src="https://f.top4top.io/p_2514i4bfc3.png" alt="" width="50px" height="50px">
+            <img src="https://e.top4top.io/p_2514uuu0e2.png" alt="" width="50px" height="50px">
+           </div>
+            <div>
+            <option onclick="falsee11()"id="decrement">henirek mikhtarian</option>
+            <option onclick="falsee11()"id="decrement">dumfries</option>
+            <option onclick="falsee11()"id="decrement">gvardiol</option>
+            <option onclick="trude11()"id="increment">marcelo brozovic</option>
+            </div>
+           <div id="showTrue11">
+           <center> <img src="https://d.top4top.io/p_2514wvoyp1.jpeg" alt="" width="200px" height="200px"></center>
+           <center> <img id="false11" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true11" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>marcelo brozovic</h1>
+            <button id="nexteleven" onclick="nexteleven()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div>
+
+        <div id="tweleve">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            
+            <img src="https://c.top4top.io/p_2514vict61.png" alt="" width="50px" height="50px">
+            <img src="https://d.top4top.io/p_2514o3t0r2.png" alt="" width="50px" height="50px">
+            <img src="https://d.top4top.io/p_25143x0sc2.png" alt="" width="50px" height="50px">
+            <img src="https://c.top4top.io/p_2514ujkzy1.png" alt="" width="50px" height="50px">
+            <img src="https://g.top4top.io/p_2514grrrs4.png" alt="" width="50px" height="50px">
+            <img src="https://e.top4top.io/p_2514ogfwe3.png" alt="" width="50px" height="50px">
+           </div>
+            <div>
+            <option onclick="falsee12()"id="decrement">pablo sarabia</option>
+            <option onclick="trude12()"id="increment">alfonso areola</option>
+            <option onclick="falsee12()"id="decrement">idrissa gueuei</option>
+            <option onclick="falsee12()"id="decrement">alex moreno</option>
+            </div>
+           <div id="showTrue12">
+           <center> <img src="https://j.top4top.io/p_2514xw05t1.jpeg" alt=""width="200px" height="200px"></center>
+           <center> <img id="false12" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true12" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>alfonso areola</h1>
+            <button id="nexttweleve" onclick="nexttweleve()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div>
+
+        <div id="threetee">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            <img src="https://j.top4top.io/p_251479pgy4.png" alt="" width="50px" height="50px">
+            <img src="https://f.top4top.io/p_2514lc78w1.png" alt="" width="50px" height="50px">
+            <img src="https://k.top4top.io/p_25147nsxw5.png" alt="" width="50px" height="50px">
+            <img src="https://i.top4top.io/p_2514jqe1e3.png" alt="" width="50px" height="50px">
+           </div>
+            <div>
+            <option onclick="falsee13()"id="decrement">youssoufa mkouko</option>
+            <option onclick="falsee13()"id="decrement">themose castange</option>
+            <option onclick="falsee13()"id="decrement">nicolas pepe</option>
+            <option onclick="trude13()"id="increment">kasper dolberg</option>
+            </div>
+           <div id="showTrue13">
+           <center> <img src="https://g.top4top.io/p_25140ifi81.jpeg" alt="" width="200px" height="200px"></center>
+           <center> <img id="false13" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true13" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>kasper dolberg</h1>
+            <button id="nextthreetee" onclick="nextthreetee()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div>
+
+        <div id="fourtee">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            <img src="https://f.top4top.io/p_2514x94ci5.png" alt="" width="50px" height="50px">
+            <img src="https://e.top4top.io/p_2514ay5dt4.png" alt="" width="50px" height="50px">
+            <img src="https://c.top4top.io/p_2514bcyos3.png" alt="" width="50px" height="50px">
+           </div>
+            <div>
+            <option onclick="falsee14()"id="decrement">roman saiss</option>
+            <option onclick="falsee14()"id="decrement">adama traore</option>
+            <option onclick="trude14()"id="increment">zeilnski</option>
+            <option onclick="falsee14()"id="decrement">jose sa</option>
+            </div>
+           <div id="showTrue14">
+           <center> <img src="https://a.top4top.io/p_2514fjm4f1.jpeg" alt="" width="200px" height="200px"></center>
+           <center> <img id="false14" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true14" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>roman saiss</h1>
+            <button id="nextfourtee"onclick="nextfourtee()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div>
+
+        <div id="fiftee">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            
+            <img src="https://c.top4top.io/p_2514dewvj1.png" alt="" width="50px" height="50px">
+            <img src="https://d.top4top.io/p_2514hnx7x2.png" alt="" width="50px" height="50px">
+           </div>
+            <div>
+            <option onclick="trude15()"id="increment">jonathan david</option>
+            <option onclick="falsee15()"id="decrement">de kettllere</option>
+            <option onclick="falsee15()"id="decrement">damasgard</option>
+            <option onclick="falsee15()"id="decrement">khalido koulibali</option>
+            </div>
+           <div id="showTrue15">
+           <center> <img src="https://e.top4top.io/p_251437jwj3.jpeg " alt="" width="200px" height="200px"></center>
+           <center> <img id="false15" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true15" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>jonathan david</h1>
+            <button id="nextfiftee"onclick="nextfiftee()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div>
+
+        <div id="sixtee">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            <img src="https://c.top4top.io/p_2514s1ies1.png" alt="" width="50px" height="50px">
+            <img src="https://i.top4top.io/p_2514hr1785.png" alt="" width="50px" height="50px">
+            <img src="https://g.top4top.io/p_2514ufc613.png" alt="" width="50px" height="50px">
+            <img src="https://f.top4top.io/p_2514hidr32.png" alt="" width="50px" height="50px">
+           </div>
+            <div>
+                <option onclick="falsee16()"id="decrement">asmoah</option>
+                <option onclick="trude16()"id="increment">anguissa</option>
+                <option onclick="falsee16()"id="decrement">pedri</option>
+                <option onclick="falsee16()"id="decrement">drais mertens</option>
+            </div>
+           <div id="showTrue16">
+           <center> <img src="https://e.top4top.io/p_2514t5wms1.jpeg" alt="" width="200px" height="200px"></center>
+           <center> <img id="false16" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true16" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>anguissa</h1>
+            <button id="nextsixtee"onclick="nextsixtee()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div>
+
+        <div id="seventee">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+           
+            <img src="https://f.top4top.io/p_2514ygkfo1.png" alt="" width="50px" height="50px">
+            <img src="https://k.top4top.io/p_2514cyzwg1.png" alt="" width="50px" height="50px">
+            <img src="https://e.top4top.io/p_2514iidmf3.png" alt="" width="50px" height="50px">
+            <img src="https://c.top4top.io/p_2514vd7tj2.png" alt="" width="50px" height="50px">
+            <img src="https://f.top4top.io/p_2514wridx4.png" alt="" width="50px" height="50px">
+           </div>
+            <div>
+                <option onclick="falsee17()"id="decrement">hermoso</option>
+                <option onclick="falsee17()"id="decrement">dani alves</option>
+                <option onclick="trude17()"id="increment">luke de jong</option>
+            <option onclick="falsee17()"id="decrement">marc bartra</option>
+            </div>
+           <div id="showTrue17">
+           <center> <img src="https://a.top4top.io/p_2514btsfr1.jpeg" alt="" width="200px" height="200px"></center>
+           <center> <img id="false17" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true17" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>luke de jong</h1>
+            <h2>the questions ended 
+                <img src="https://a.top4top.io/p_2514f3t7m1.png" alt="">
+               </h2>
+            <button id="nextsevente"onclick="nextsevente()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div>
+
+        <div id="eightee">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            
+            <img src="https://g.top4top.io/p_25149woq14.png" alt="" width="50px" height="50px">
+            <img src="https://e.top4top.io/p_2514bhbf22.png" alt="" width="50px" height="50px">
+            <img src="https://f.top4top.io/p_2514y5zwi3.png" alt="" width="50px" height="50px">
+            <img src="https://e.top4top.io/p_2514bhbf22.png" alt="" width="50px" height="50px">
+           </div>
+            <div>
+            <option onclick="trude18()"id="increment">kevin trrap</option>
+            <option onclick="falsee18()"id="decrement">kurazawa</option>
+            <option onclick="falsee18()"id="decrement">kamada</option>
+            <option onclick="falsee18()"id="decrement">jordi alba</option>
+            </div>
+           <div id="showTrue18">
+           <center> <img src="https://d.top4top.io/p_2514yce7m1.jpeg" alt="" width="200px" height="200px"></center>
+           <center> <img id="false18" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true18" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>kevin trrap</h1>
+            <button id="nexteightee"onclick="nexteightee()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div>
+
+        <div id="nintee">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            <img src="https://i.top4top.io/p_2514bmauk2.png" alt="" width="50px" height="50px">
+            <img src="https://l.top4top.io/p_2514t2n115.png" alt="" width="50px" height="50px">
+            <img src="https://k.top4top.io/p_2514pqp864.png" alt="" width="50px" height="50px">
+            <img src="https://j.top4top.io/p_2514ss9mf3.png" alt="" width="50px" height="50px">
+            <img src="" alt="" width="50px" height="50px">
+           </div>
+           <div>
+               <option onclick="falsee19()"id="decrement"></option>
+               <option onclick="falsee19()"id="decrement"></option>
+               <option onclick="falsee19()"id="decrement"></option>
+               <option onclick="trude19()"id="increment"></option>
+            </div>
+           <div id="showTrue19">
+           <center> <img src="https://j.top4top.io/p_2514eaxmh1.jpeg" alt="" width="200px" height="200px"></center>
+           <center> <img id="false19" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true19" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1></h1>
+            <button id="nextninetee"onclick="nextninetee()"><img src="https://i.top4top.io/p_2510voc0r1.png" alt="" width="50px" height="50px"></button>
+           </div>
+        </div> 
+
+        <div id="twente">
+            <center><img src="https://e.top4top.io/p_25105hrs01.png" alt="" width="200px" height="200px"></center>
+           <div class="clubs">
+            
+            <img src="https://l.top4top.io/p_2514n61yg3.png" alt="" width="50px" height="50px">
+            <img src="https://a.top4top.io/p_2514kkaze4.png" alt="" width="50px" height="50px">
+            <img src="https://k.top4top.io/p_2514ljw192.png" alt="" width="50px" height="50px">
+           </div>
+            <div>
+                <option onclick="falsee20()"id="decrement">antony</option>
+                <option onclick="trude20()"id="increment">nayef akrad</option>
+            <option onclick="falsee20()"id="decrement">balbuena</option>
+            <option onclick="falsee20()"id="decrement">boulai dia</option>
+            </div>
+           <div id="showTrue20">
+           <center> <img src="https://j.top4top.io/p_2514sj7m81.jpeg" alt="" width="200px" height="200px"></center>
+           <center> <img id="false20" style="display: none;" src="https://b.top4top.io/p_2510bsyxi1.png" alt="" width="70px" height="70px"></center>
+           <center> <img id="true20" style="display: none;" src="https://i.top4top.io/p_25102wsr71.png" alt="" width="70px" height="70px"></center>
+            <h1>nayef akrad</h1>
+           <h2>the questions ended 
+            <img src="" alt="">
+           </h2>
+           </div>
+        </div>
+
+       
+      </section>
+
+      
+
+    <script src="script.js"></script>
+</body>
+</html>
